@@ -1,0 +1,44 @@
+<view class="logs1-view">
+  <view class="news-item" wx:for="{{newsLists}}" wx:key="logs1">
+    {{item.title}}
+  </view>
+</view>
+<view >
+  <view class="xinwen.item"> 
+    <image src="https://www.hsnc.edu.cn/__local/B/D4/93/7B913ABE8061232984AC001AC6F_638B7C73_E8F6.jpg"></image>
+    <view id="box1" bindtap="jumpToNotices1">我校召开2022年创建全国文明城市暨全国文明校园工作会议</view>
+  </view>
+  <view class="xinwen.item">
+    <image src="https://www.hsnc.edu.cn/__local/6/CB/AE/9A49BDE1E1B3C1409FC5829AD65_59196B1A_22CCE.jpg"></image>
+    <view id="box1" bindtap="jumpToNotices2">凝心聚力、共促发展——我校赴饶阳县考察调研</view>
+  </view>
+  <view class="xinwen.item">
+    <image src="https://www.hsnc.edu.cn/__local/E/59/D0/4C51B76363745739A99D9A46D4A_5DE5C731_18A59.png"></image>
+    <view id="box1" bindtap="jumpToNotices3">外语系召开OBE教育理念下专业和课程建设专题研讨会</view>
+  </view>
+  <view class="xinwen.item"> 
+    <image src="https://www.hsnc.edu.cn/__local/8/76/A8/B883240C49648F34E18E5F96639_5B254172_13815.jpg"></image>
+    <view id="box1" bindtap="jumpToNotices4">我校成功举办青年教师教学能力提升工作坊</view>
+  </view>
+  <view class="xinwen.item"> 
+    <image src="https://www.hsnc.edu.cn/__local/2/33/1F/8B823F630722B12ACC107722188_2F36FD17_18777.jpg"></image>
+    <view id="box1">新学期新征程：我校开展2021-2022春季学期教育教学巡查</view>
+  </view>
+  <view class="xinwen.item"> 
+    <image src="https://www.hsnc.edu.cn/__local/5/ED/22/687B3FDDC4BA75D0D1BFBFD2A7B_58B25F91_A7C7F.png"></image>
+    <view id="box1">河北省梨创新团队衡水综合试验推广站启动会在衡水学院召开</view>
+  </view>
+  <view class="xinwen.item"> 
+    <image src="https://www.hsnc.edu.cn/__local/4/FE/E0/C4FA08D389A0EB619F089CE76A9_AF29797D_A8048.png"></image>
+    <view id="box1" >外语系成功举办课程思政优秀教学案例暨课程思政示范课大赛</view>
+  </view>
+  <view class="xinwen.item"> 
+    <image src="https://www.hsnc.edu.cn/__local/6/61/61/50D29D608BB3193A36D6D56A9CF_A1A97D1E_A92B5.png"></image>
+    <view id="box1">开学季主题思政课：传承冬奥精神 拼搏开创未来</view>
+  </view>
+  <view class="xinwen.item"> 
+    <image src="https://www.hsnc.edu.cn/__local/D/05/22/AE5A7D37DD76A8134FE4C88EA09_761A0980_11804.jpg"></image>
+    <view id="box1">情系冬奥赛事 共圆奥运梦想</view>
+  </view>
+
+</view>

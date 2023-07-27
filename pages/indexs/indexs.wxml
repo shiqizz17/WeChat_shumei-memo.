@@ -1,0 +1,35 @@
+<!--pages/index/index.wxml-->
+<swiper indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <view class="item_1"><image src="https://img0.baidu.com/it/u=1424246981,4272973490&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" alt=""/></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item_2"><image src="https://img0.baidu.com/it/u=4162600864,2371113151&fm=253&fmt=auto&app=138&f=JPEG?w=450&h=300" alt=""/></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item_3"><image src="https://img0.baidu.com/it/u=2369676985,1411112749&fm=253&fmt=auto&app=138&f=JPEG?w=751&h=500" alt=""/></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item_4"><image src="https://img0.baidu.com/it/u=2003878538,2448114973&fm=253&fmt=auto&app=138&f=JPEG?w=751&h=500" alt=""/></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item_5"><image src="https://img2.baidu.com/it/u=1267050369,2149531615&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=225" alt=""/></view>
+    </swiper-item>
+  </swiper>
+  
+  <view class="upload" bindtap="upload">
+    <view class="icon">
+      +
+    </view>
+    <view>点击上传图片</view>
+  </view>
+  
+  <view class="img-preview" wx:if="{{url}}">
+    <image src="{{url}}"></image>
+  </view>
+
+  <input placeholder="填写备忘录标题"></input>
+
+  <button>立即提交</button>
+
+  <image src=""></image>

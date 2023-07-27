@@ -1,0 +1,5 @@
+<!--pages/add/add.wxml-->
+<input type="text" placeholder="输入备忘录标题" bindinput="setTitle"></input>
+<input type="text" placeholder="输入完成时间" bindinput="setDate"></input>
+
+<button bindtap="add">立即提交</button>

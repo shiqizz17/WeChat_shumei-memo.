@@ -1,0 +1,5 @@
+<!--pages/news3/news3.wxml-->
+<input placeholder="输入学号" type="number" bindinput="setNumber"></input>
+<input placeholder="输入姓名" type="text" bindinput="setName"></input>
+
+<button bindtap="submit">立即绑定</button>

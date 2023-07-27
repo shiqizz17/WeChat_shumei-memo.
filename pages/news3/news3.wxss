@@ -1,0 +1,11 @@
+/* pages/news3/news3.wxss */
+
+input{
+    height: 75rpx;
+    background-color:#ccc;
+    color: #555;
+    font-size: 30rpx;
+    padding: 5rpx 10rpx;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+}

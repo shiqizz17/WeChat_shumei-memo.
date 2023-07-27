@@ -1,0 +1,28 @@
+<!--pages/news1/news1.wxml-->
+
+  <!-- <view>
+    <input type="text" placeholder="输入用户名" bindinput="setUsername"/>
+    <input type="password" placeholder="输入密码"/>
+    <input type="password" placeholder="确认密码"/>
+  </view>
+<view class="b-view">
+    <button class="register-btn" bindtap="register">立即注册</button>
+</view> -->
+
+<!-- <picker mode="date" start="{{2021-01-01}}" end="{{2022-12-31}}" bindchange="setDate">
+  <view>预约日期：{{currentDate}}</view>
+</picker> -->
+
+<radio-group bindchange="setGender">
+  <radio value="男" checked="true">男</radio>
+  <radio value="女">女</radio>
+  <radio value="保密">保密</radio>
+</radio-group>
+
+<!-- <hr/> -->
+<!-- <textarea name="备注" id="box" cols="30" rows="10">请输入您的意见</textarea>
+<button id="primary" bindtap="handleTop" wx:if="{{isCreated}}">
+    意见反馈
+</button>
+<button id="primary" bindtap="handleTop" wx:else>反馈成功</button>
+<view id="box1" hidden="{{isHidden}}">您的反馈已收到，感谢您的反馈</view> -->

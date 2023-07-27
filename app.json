@@ -1,0 +1,49 @@
+{
+    "pages": [
+        "pages/indexs/indexs",
+        "pages/logs1/logs1",
+        "pages/news1/news1",
+        "pages/news2/news2",
+        "pages/news3/news3",
+        "pages/add/add",
+        "pages/notices1/notices1",
+        "pages/notices2/notices2",
+        "pages/notices3/notices3",
+        "pages/notices4/notices4"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#008800",
+        "navigationBarTitleText": "校园新闻",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/indexs/indexs",
+                "text": "首页",
+                "iconPath": "images/index_1.png",
+                "selectedIconPath": "images/index.png"
+            },
+            {
+                "pagePath": "pages/logs1/logs1",
+                "text": "新闻",
+                "iconPath": "images/new_1.png",
+                "selectedIconPath": "images/new.png"
+            },{
+                "pagePath": "pages/news1/news1",
+                "text": "反馈",
+                "iconPath": "images/logs_1.png",
+                "selectedIconPath": "images/logs.png"
+            },{
+                "pagePath": "pages/news2/news2",
+                "text": "备忘录",
+                "iconPath": "images/news_1.png",
+                "selectedIconPath": "images/news.png"
+            }
+            
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

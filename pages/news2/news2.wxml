@@ -1,0 +1,21 @@
+<!--pages/news2/news2.wxml-->
+<view class="task-lists">
+    <view class="task-item" wx:for="{{taskLists}}" wx:key="{{index}}">
+        <view class="title">{{item.title}}</view>
+        <view class="time">完成时间：{{item.complete_date}}</view>
+        <view class="status"></view>
+        <view class="operate">
+            <view class="detele1" bindtap="subscribe" data-id="{{item.id}}" data-index="{{index}}">订阅</view>
+           <view class="detele" bindtap="delete" data-id="{{item.id}}" data-index="{{index}}">删除</view>
+           <view class="complete" wx:if="{{item.status == 1}}" bindtap="changeStatus" data-id="{{item.id}}" data-index="{{index}}" data-status="2">完成</view>
+           <view class="complete1" wx:else bindtap="changeStatus" data-id="{{item.id}}" data-index="{{index}}" data-status="1">取消完成</view>
+        </view>
+    </view>
+</view>
+
+
+
+<view class="tip">{{tip}}</view>
+<view class="create" bindtap="add">
+    +
+</view>

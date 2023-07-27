@@ -1,0 +1,80 @@
+/* pages/index/index.wxss */
+/* pages/indexs/indexs.wxss */
+wiper-item{
+    font-size: 50rpx;
+    color: #ffffff;
+  }
+  
+  .item_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300rpx;
+  }
+  
+  .item_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:500rpx;
+  }
+  
+  .item_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400rpx;
+  }
+
+  .item_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300rpx;
+  }
+  .item5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300rpx;  
+  }
+
+  .upload{
+    font-size: 30rpx;
+    color: #cf8d60;
+    padding: 30rpx 15rpx;
+    margin-top: 100rpx;
+    background-color:#ccc;
+    display: flex;
+  }
+
+  .icon{
+    width: 40rpx;
+    height: 40rpx;
+    background-color: #eee;
+    text-align: center;
+    line-height: 40rpx;
+    margin-right: 10rpx;
+    border-radius: 50%;
+  }
+
+  img-preview{
+    width: 120rpx;
+    height: 120rpx;
+    border: 1px solid #ddd;
+    padding: 10rpx;
+    margin: 20rpx;
+  }
+
+  input{
+    height: 100rpx;
+    background-color: #ddd;
+    margin-top: 20rpx;
+  }
+
+  button{
+    margin-top: 20rpx;
+    background-color: #fff;
+    border: 1rpx solid black;
+  }
+  

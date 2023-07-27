@@ -1,0 +1,8 @@
+<!--pages/notices4/notices4.wxml-->
+<view class="article-list">
+    <view class="article-item" wx:for="{{articles}}" wx:key="{{index}}">
+    <image src="{{item.image}}"></image>
+    <view>{{item.title}}</view>
+    <view>{{item.content}}</view>
+    </view>
+</view>

@@ -1,0 +1,36 @@
+/* pages/news1/news1.wxss */
+
+page{
+    background-color: #f7f7f7;
+  }
+#primary{
+    background-color: #14c160;
+    margin-top: 20rpx;
+}
+
+#register-btn{
+    width: 100%;
+    background-color: #ccc;
+   
+}
+
+input{
+    margin-top: 20rpx;
+    padding: 20rpx 10rpx;
+    background-color: #ffffff;
+    font-size: 35rpx;
+    border: 2rpx solid #ccc;
+  }
+  .register-btn{
+    margin-top: 30rpx;
+    font-size: 40rpx;
+    background-color:aquamarine;
+    color: #ffffff;
+    width: 80%; 
+  }
+  #box{
+    width: 100%;
+    background-color: #ffffff;
+    border: 2rpx solid #ccc;
+  }
+ 
